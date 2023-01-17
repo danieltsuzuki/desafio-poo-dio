@@ -22,6 +22,7 @@ public class Main {
         mentoria1.setTitulo("Mentoria de java");
         mentoria1.setDescricao("Falaremos sobre conceitos básico de java e orientação a objetos");
         mentoria1.setData(LocalDate.now());
+        mentoria1.calcularXp();
 
 
         System.out.println(curso1);
